@@ -1,12 +1,12 @@
 /**
  * Created by david on 24/10/16.
  */
-
+"use strict";
 var http = require('http'),
     fs = require('fs');
 
 function serveStaticFile(res, path, contentType, responseCode) {
-    if (!responseCode) responseCode = 200;
+    if (!responseCode) { responseCode = 200; }
     fs.readFile(__dirname + path, function (err, data) {
         if (err) {
             res.writeHead(500, {'Content-Type': 'text/plain'});
