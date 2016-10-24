@@ -9,7 +9,7 @@ http.createServer(function (req, res) {
     res.writeHead(200, {
         "Content-type": "text/plain"
     });
-    res.end("hello world");
+    res.end("hello world! this is calling URL: " + req.url + " ");
 }).listen(3000);
 
 console.log("Server started on localhost:3000; press Ctrl-C to terminate...");
