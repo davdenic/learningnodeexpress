@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "express": "^4.0.0",
+    "express3-handlebars": "^0.5.0"
+  },
+  "name": "learning-node-express",
+  "description": "my examples learning node and express reading the \"Web Development with Node and Express - Ethan Brown\" book",
+  "version": "0.0.3",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davdenic/learningnodeexpress.git"
+  },
+  "author": "David Denicolo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davdenic/learningnodeexpress/issues"
+  },
+  "homepage": "https://github.com/davdenic/learningnodeexpress#readme"
+}
