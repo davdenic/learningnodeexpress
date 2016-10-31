@@ -6,7 +6,10 @@
   "name": "learning-node-express",
   "description": "my examples learning node and express reading the \"Web Development with Node and Express - Ethan Brown\" book",
   "version": "0.0.3",
-  "devDependencies": {},
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.1.2"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
