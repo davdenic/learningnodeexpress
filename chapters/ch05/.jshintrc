@@ -1,0 +1,11 @@
+{
+  "globals":       {
+    "require": false,
+    "__dirname": false,
+    "console": false
+  },
+  "jquery":        true,
+  "node":          true,
+  "quotmark":      false,
+  "strict":        true
+}

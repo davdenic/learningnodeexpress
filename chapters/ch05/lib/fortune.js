@@ -2,7 +2,6 @@
  * Created by david on 31/10/16.
  */
 
-"use strict";
 var fortunes = [
     "Conquer your fears or they will conquer you.",
     "Rivers need springs.",
