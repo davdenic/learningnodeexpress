@@ -12,7 +12,7 @@ var fortunes = [
     "Enjoy the small things."
 ];
 
-exports.getFortune = function () {
+exports.getFortune = function() {
     var id = Math.floor(Math.random() * fortunes.length);
     return fortunes[id];
 };
