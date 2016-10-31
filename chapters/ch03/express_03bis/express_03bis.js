@@ -1,7 +1,7 @@
 /**
  * Created by david on 24/10/16.
  */
-
+"use strict";
 // setup express
 var express = require("express");
 var app = express();
@@ -11,7 +11,7 @@ console.log(__dirname);
 // set up handlebars view engine
 var handlebars = require("express3-handlebars") .create({
     defaultLayout: "main",
-    extname: ".hbs", // this define the extension for layouts/main.hbs
+    extname: ".hbs" // this define the extension for layouts/main.hbs
 });
 app.engine("hbs", handlebars.engine); // this define hbs as handlebars engine
 app.set("view engine", "hbs"); // this say to use hbs as view engine
