@@ -2,6 +2,8 @@
  * Created by david on 31/10/16.
  */
 
+"use strict";
+
 var fortunes = [
     "Conquer your fears or they will conquer you.",
     "Rivers need springs.",
@@ -11,7 +13,7 @@ var fortunes = [
     "Enjoy the small things."
 ];
 
-exports.getFortune = function() {
+exports.getFortune = function () {
     var id = Math.floor(Math.random() * fortunes.length);
     return fortunes[id];
 };

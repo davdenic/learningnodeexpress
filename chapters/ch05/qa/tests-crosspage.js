@@ -2,6 +2,8 @@
  * Created by david on 31/10/16.
  */
 
+"use strict";
+
 var Browser = require('zombie'),
     assert = require('chai').assert;
 var browser;

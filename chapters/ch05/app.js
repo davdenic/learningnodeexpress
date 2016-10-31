@@ -1,6 +1,9 @@
 /**
  * Created by david on 24/10/16.
  */
+
+"use strict";
+
 // setup express
 var express = require("express");
 var fortune = require("./lib/fortune.js");

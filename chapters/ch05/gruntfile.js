@@ -2,6 +2,8 @@
  * Created by david on 31/10/16.
  */
 
+"use strict";
+
 module.exports = function(grunt){ // load plugins
     [
         'grunt-cafe-mocha',
@@ -18,8 +20,11 @@ module.exports = function(grunt){ // load plugins
             }
         },
         jshint: {
+            options:{
+                jshintrc: '.jshintrc',
+            },
             app: ['app.js', 'public/js/**/*.js', 'lib/**/*.js'],
-            qa: ['gruntfile.js', 'public/qa/**/*.js', 'qa/**/*.js'],
+            qa: ['Gruntfile.js', 'public/qa/**/*.js', 'qa/**/*.js'],
         },
         exec: {
             linkchecker: {cmd: 'linkchecker http://localhost:3000'},
