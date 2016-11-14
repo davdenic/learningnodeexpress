@@ -1,0 +1,12 @@
+{
+  "node":          true,
+  "mocha":         true,
+  "jquery":        true,
+  "browser":       true,
+  "strict":        "global",
+  "indent":        4,
+  "maxerr":        50,
+  "curly":         true,
+  "undef":         true,
+  "unused":        true
+}
